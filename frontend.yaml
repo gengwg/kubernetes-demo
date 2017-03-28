@@ -32,7 +32,8 @@ spec:
     spec:
       containers:
         - name: nodejs
-          image: chenglong/simple-node:v1
+          #image: chenglong/simple-node:v1
+          image: chenglong/simple-node:v2
           resources:
             requests:
               cpu: 100m
